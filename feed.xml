@@ -1,3 +1,310 @@
----
-layout: feed
----
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator>
+  
+  
+  <link href="/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2018-03-16T18:24:58+00:00</updated>
+  <id>//</id>
+
+  
+    <title type="html">Discovering Jekyll</title>
+  
+
+  
+
+  
+    <author>
+        <name>Anne Pajon &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons Licence&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/80x15.png&quot; /&gt;&lt;/a&gt;</name>
+      
+      
+    </author>
+  
+
+  
+  
+    <entry>
+      
+      <title type="html">Data files</title>
+      
+      <link href="/2018/03/16/data-files/" rel="alternate" type="text/html" title="Data files" />
+      <published>2018-03-16T17:57:00+00:00</published>
+      <updated>2018-03-16T17:57:00+00:00</updated>
+      <id>/2018/03/16/data-files</id>
+      <content type="html" xml:base="/2018/03/16/data-files/">&lt;p&gt;Start looking at
+&lt;a href=&quot;https://jekyllrb.com/docs/datafiles/#example-accessing-a-specific-author&quot;&gt;Data Files | jekyll&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Anne Pajon &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons Licence&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/80x15.png&quot; /&gt;&lt;/a&gt;</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="jekyll" />
+      
+        <category term="update" />
+      
+
+      
+
+      
+        <summary type="html">Start looking at Data Files | jekyll</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">From minima to jekyll-whiteglass theme</title>
+      
+      <link href="/2018/03/16/from-minima-to-jekyll-whiteglass/" rel="alternate" type="text/html" title="From minima to jekyll-whiteglass theme" />
+      <published>2018-03-16T17:24:00+00:00</published>
+      <updated>2018-03-16T17:24:00+00:00</updated>
+      <id>/2018/03/16/from-minima-to-jekyll-whiteglass</id>
+      <content type="html" xml:base="/2018/03/16/from-minima-to-jekyll-whiteglass/">&lt;p&gt;Using &lt;a href=&quot;https://github.com/yous/whiteglass&quot;&gt;GitHub - yous/whiteglass: Minimal, responsive Jekyll theme for hackers&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;pajanne.github.io/
+
+sudo gem install jekyll-whiteglass
+
+curl -L -O &lt;span class=&quot;s2&quot;&gt;&quot;https://github.com/yous/whiteglass/raw/master/{index.html,about.md,archives.md,feed.xml}&quot;&lt;/span&gt;
+curl -L --create-dirs -o _data/navigation.yml https://github.com/yous/whiteglass/raw/master/_data/navigation.yml
+
+bundle install
+bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Simple Customisation:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;change &lt;code class=&quot;highlighter-rouge&quot;&gt;archives/&lt;/code&gt; into &lt;code class=&quot;highlighter-rouge&quot;&gt;posts/&lt;/code&gt; in menu and on disk&lt;/li&gt;
+  &lt;li&gt;add link to latest post on home page&lt;/li&gt;
+  &lt;li&gt;add &lt;code class=&quot;highlighter-rouge&quot;&gt;author:&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; to appear in footer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pulkitsharma07.github.io/2017/09/23/using-jekyll-and-github-pages/&quot;&gt;Using Jekyll and Github Pages (in 2017)&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create dev branch on my blog project in GitHub
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git fetch
+git checkout dev
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Create a &lt;code class=&quot;highlighter-rouge&quot;&gt;deploy.sh&lt;/code&gt; script&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Anne Pajon &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons Licence&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/80x15.png&quot; /&gt;&lt;/a&gt;</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="jekyll" />
+      
+        <category term="update" />
+      
+
+      
+
+      
+        <summary type="html">Using GitHub - yous/whiteglass: Minimal, responsive Jekyll theme for hackers</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Jekyll Themes</title>
+      
+      <link href="/2018/03/09/jekyll-themes/" rel="alternate" type="text/html" title="Jekyll Themes" />
+      <published>2018-03-09T16:26:00+00:00</published>
+      <updated>2018-03-09T16:26:00+00:00</updated>
+      <id>/2018/03/09/jekyll-themes</id>
+      <content type="html" xml:base="/2018/03/09/jekyll-themes/">&lt;p&gt;Exploring different &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; themes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;Jekyll Themes&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/Type-on-Strap/&quot;&gt;Type on Strap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/whiteglass/&quot;&gt;whiteglass&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/lanyon-plus/&quot;&gt;lanyon-plus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.jekyllthemes.io/&quot;&gt;Jekyll Themes &amp;amp; Templates&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jekyllthemes.io/theme/15489219/lanyon&quot;&gt;lanyon - Jekyll Themes &amp;amp; Templates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Anne Pajon &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons Licence&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/80x15.png&quot; /&gt;&lt;/a&gt;</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="jekyll" />
+      
+        <category term="update" />
+      
+
+      
+
+      
+        <summary type="html">Exploring different Jekyll themes.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">My first post!</title>
+      
+      <link href="/2018/03/08/my-first-post/" rel="alternate" type="text/html" title="My first post!" />
+      <published>2018-03-08T18:21:00+00:00</published>
+      <updated>2018-03-08T18:21:00+00:00</updated>
+      <id>/2018/03/08/my-first-post</id>
+      <content type="html" xml:base="/2018/03/08/my-first-post/">&lt;p&gt;This is my first post using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. Setting it up is easy. Next step will be to look into &lt;strong&gt;themes&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;To install Jekyll locally into an existing directory:&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo gem install -n /usr/local/bin jekyll bundler
+jekyll new . --force
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To view you site locally:&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;and go to http://127.0.0.1:4000/&lt;/p&gt;
+
+&lt;p&gt;To push it to GitHub:&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add .; git commit -m &lt;span class=&quot;s1&quot;&gt;'new posts'&lt;/span&gt;
+git push
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Anne Pajon &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons Licence&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/80x15.png&quot; /&gt;&lt;/a&gt;</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="jekyll" />
+      
+        <category term="update" />
+      
+
+      
+
+      
+        <summary type="html">This is my first post using Jekyll. Setting it up is easy. Next step will be to look into themes.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Welcome to Jekyll!</title>
+      
+      <link href="/2018/03/08/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
+      <published>2018-03-08T18:00:00+00:00</published>
+      <updated>2018-03-08T18:00:00+00:00</updated>
+      <id>/2018/03/08/welcome-to-jekyll</id>
+      <content type="html" xml:base="/2018/03/08/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Anne Pajon &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons Licence&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/80x15.png&quot; /&gt;&lt;/a&gt;</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="jekyll" />
+      
+        <category term="update" />
+      
+
+      
+
+      
+        <summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+</feed>

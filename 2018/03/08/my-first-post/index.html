@@ -9,12 +9,12 @@
   
   
   
-  <title>Discovering Jekyll</title>
-  <meta name="description" content="">
+  <title>My first post!</title>
+  <meta name="description" content="This is my first post using Jekyll. Setting it up is easy. Next step will be to look into themes.">
   
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/2018/03/08/my-first-post/">
   
   
   <link rel="alternate" type="application/rss+xml" title="Discovering Jekyll" href="/feed.xml">
@@ -24,8 +24,8 @@
   
   <meta name="twitter:card" content="summary">
   
-  <meta name="twitter:title" content="Discovering Jekyll">
-  <meta name="twitter:description" content="">
+  <meta name="twitter:title" content="My first post!">
+  <meta name="twitter:description" content="This is my first post using Jekyll. Setting it up is easy. Next step will be to look into themes.">
   
   
 
@@ -77,23 +77,53 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <p>Blog posts about learning how to build a website using Jekyll.</p>
-
-<p>Latest post: <a href="/2018/03/16/data-files/">2018-03-16 17:57:00 +0000 Data files</a></p>
-
-
-  
-
-  <ul class="post-list">
+  <header class="post-header">
     
-  </ul>
-
+      <h1 class="post-title" itemprop="name headline">My first post!</h1>
+    
+    <p class="post-meta"><time datetime="2018-03-08T18:21:00+00:00" itemprop="datePublished">Mar 8, 2018</time> •
+  
+    
+    
+  
+    
+    
   
 
 
+
+</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>This is my first post using <a href="https://jekyllrb.com/">Jekyll</a>. Setting it up is easy. Next step will be to look into <strong>themes</strong>.</p>
+
+<p>To install Jekyll locally into an existing directory:</p>
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>sudo gem install -n /usr/local/bin jekyll bundler
+jekyll new . --force
+</code></pre>
 </div>
+
+<p>To view you site locally:</p>
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve
+</code></pre>
+</div>
+<p>and go to http://127.0.0.1:4000/</p>
+
+<p>To push it to GitHub:</p>
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>git add .; git commit -m <span class="s1">'new posts'</span>
+git push
+</code></pre>
+</div>
+
+
+  </div>
+
+  
+
+</article>
 
       </div>
     </main>

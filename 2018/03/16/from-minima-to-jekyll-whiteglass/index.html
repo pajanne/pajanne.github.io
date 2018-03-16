@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>From minima to jekyll-whiteglass theme</title>
+  <meta name="description" content="Using GitHub - yous/whiteglass: Minimal, responsive Jekyll theme for hackers">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="/2018/03/16/from-minima-to-jekyll-whiteglass/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="Discovering Jekyll" href="/feed.xml">
+
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="From minima to jekyll-whiteglass theme">
+  <meta name="twitter:description" content="Using GitHub - yous/whiteglass: Minimal, responsive Jekyll theme for hackers">
+  
+  
+
+  <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Bitter:400,700,400italic:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Discovering Jekyll</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/about/">About</a>
+      
+        
+        <a class="page-link" href="/posts/">Posts</a>
+      
+        
+        <a class="page-link" href="https://github.com/pajanne">GitHub</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">From minima to jekyll-whiteglass theme</h1>
+    
+    <p class="post-meta"><time datetime="2018-03-16T17:24:00+00:00" itemprop="datePublished">Mar 16, 2018</time> •
+  
+    
+    
+  
+    
+    
+  
+
+
+
+</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Using <a href="https://github.com/yous/whiteglass">GitHub - yous/whiteglass: Minimal, responsive Jekyll theme for hackers</a></p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="nb">cd </span>pajanne.github.io/
+
+sudo gem install jekyll-whiteglass
+
+curl -L -O <span class="s2">"https://github.com/yous/whiteglass/raw/master/{index.html,about.md,archives.md,feed.xml}"</span>
+curl -L --create-dirs -o _data/navigation.yml https://github.com/yous/whiteglass/raw/master/_data/navigation.yml
+
+bundle install
+bundle <span class="nb">exec </span>jekyll serve
+</code></pre>
+</div>
+
+<p>Simple Customisation:</p>
+<ul>
+  <li>change <code class="highlighter-rouge">archives/</code> into <code class="highlighter-rouge">posts/</code> in menu and on disk</li>
+  <li>add link to latest post on home page</li>
+  <li>add <code class="highlighter-rouge">author:</code> in <code class="highlighter-rouge">_config.yml</code> to appear in footer</li>
+</ul>
+
+<p><a href="https://pulkitsharma07.github.io/2017/09/23/using-jekyll-and-github-pages/">Using Jekyll and Github Pages (in 2017)</a></p>
+
+<ul>
+  <li>Create dev branch on my blog project in GitHub
+    <div class="language-bash highlighter-rouge"><pre class="highlight"><code>git fetch
+git checkout dev
+</code></pre>
+    </div>
+  </li>
+  <li>Create a <code class="highlighter-rouge">deploy.sh</code> script</li>
+</ul>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy; Anne Pajon <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
