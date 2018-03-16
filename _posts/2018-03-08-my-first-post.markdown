@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My first post!"
-date:   2018-03-08 18:21:00 +0000
+date:   2018-03-08 18:21:00
 categories: jekyll update
 ---
 
